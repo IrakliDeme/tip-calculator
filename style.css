@@ -1,0 +1,234 @@
+body{
+    background-color: #F2F2F2;
+}
+.logo{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.parent-card{
+    max-width: 920px;
+    height: 789px;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.bill-1{
+    padding-top: 5%;
+}
+#bill{
+    margin-top: 100px;
+    color:#5E7A7D;
+    font-size: 16px;
+    padding-left: 5%;
+}
+#prompt-1{
+    scroll-padding-inline-end: 10%;
+background-image: url("./icon-dollar.svg");
+background-repeat: no-repeat;
+background-position-y:center;
+background-position-x:right;
+width: 311px;
+height: 48px;
+background-color: #F3F9FA;
+border-radius: 5px;
+margin-left: 5%;
+caret-color: red;
+font-size: 24px;
+color:#00474B
+
+}
+.icon-dolar{
+    margin-top: -100px;
+    margin-left: 5%;
+}
+.select-tip{
+    font-size: 16px;
+    color:#5E7A7D;
+    margin-left: 5%;
+}
+#percent-1{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#percent-2{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#percent-3{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#percent-4{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#percent-5{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+#custom{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    font-size: 24px;
+    color: #547878;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.number-people{
+    font-size: 16px;
+    color:#5E7A7D;
+    padding-left: 5%;
+}
+#prompt-2{
+    background-image: url("./icon-person.svg");
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x:right;
+    width: 311px;
+    height: 48px;
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    margin-left: 5%;
+    font-size: 24px;
+    color:#00474B;
+}
+.green-box{
+    width: 327px;
+    height: 257px;
+    background-color: #00474B;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ 
+}
+p{
+    color:white;
+    font-size: 20px;
+}
+#person-screen-amount{
+    font-size: 25px;
+    color:#26C2AE;
+    
+}
+#total-screen-amount{
+    font-size: 25px;
+    color:#26C2AE; 
+}
+.tip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#reset{
+    width: 281px;
+    height: 48px;
+    background-color: #26C2AE;
+    border-radius: 5px;
+    cursor: pointer;
+   transition: 0.5s;
+}
+.res-button{
+    padding-left: 10%;
+}
+.Percentage-buttons{
+    max-width: 379px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+input[type="text"]
+{
+    padding: 0.25px;
+  
+}
+.placeholder{
+    margin-left: 200px;
+   
+}
+@media (min-width:1024px){
+    .green-box{
+        width: 413px;
+        height: 417px;
+    }
+   
+    #percent-1{
+        width: 117px;
+    }
+    #percent-2{
+        width: 117px;
+    }
+    #percent-3{
+        width: 117px;
+    }
+    #percent-4{
+        width: 117px;
+    }
+    #percent-5{
+        width: 117px;
+    }
+    #custom{
+        width: 117px;
+    }
+    .box-1{
+        height: 417px;
+    }
+    .parent-card{
+        height: 481px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

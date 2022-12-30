@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="app.js" defer></script>
+
+  </head>
+  <body>
+    <div class="logo">
+      <img class="splitter" src="./logo.svg">
+    </div>
+    <div class="parent-card">
+      <div class="box-1">
+        <div class="bill-1">
+          <label id="bill">Bill</label>
+        </div>
+        <div class=input-1>
+      <input type="text" class="number"   id="prompt-1" placeholder="0"  >
+    </div>
+      
+      <p class="select-tip">Select Tip %</p>
+      <div class="Percentage-buttons">
+      <button id="percent-1">5%</button>
+      <button id="percent-2">10%</button>
+      <button id="percent-3">15%</button>
+      <button id="percent-4">25%</button>
+      <button id="percent-5">50%</button>
+      <button id="custom">Custom</button>
+      </div>
+      <div class="persons-number">
+        <p class="number-people">Number of People</p>
+        <input id="prompt-2"  placeholder ="0">
+      </div>
+      </div>
+      <div class="green-box">
+    <div class="tip">
+    <P> tip amount: </P> 
+    <span id="person-screen-amount">$</span>
+    </div>
+    <div class="total">
+     <p> total amount: </p>
+      <span id="total-screen-amount">$</span>
+    </div>
+    <div class="res-button">
+    <button id="reset">RESET</button>
+    </div>
+    </div>
+  </div>
+   
+  </body>
+</html>
